@@ -12,7 +12,7 @@ bot = commands.Bot(command_prefix='!', intents=intents)
 
 AUTHGUARD_API_URL = "https://api.authguard.org"
 API_TOKEN = "YOUR_API_TOKEN_HERE"
-SERVICE_ID = YOUR_ID_HERE  # From provided URLs
+SERVICE_ID = 575  # From provided URLs
 CRAVEX_PROMO_LINK = "Developed by Cravex Team: https://discord.gg/NPzzhqTMvq"
 
 def get_auth_headers():
