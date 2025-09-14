@@ -11,7 +11,7 @@ intents.message_content = True
 bot = commands.Bot(command_prefix='!', intents=intents)
 
 AUTHGUARD_API_URL = "https://api.authguard.org"
-API_TOKEN = os.getenv("API-TOKEN")
+API_TOKEN = "API-TOKEN-Here"
 SERVICE_ID = 575  # From provided URLs
 CRAVEX_PROMO_LINK = "Developed by Cravex Team: https://discord.gg/NPzzhqTMvq"
 
